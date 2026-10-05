@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+<style>
+   *{   margin: 0px;
+         padding: 0px; }
+.container{
+    width: 1280px;
+    height: auto;
+}
+.header{
+    width: 1280px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(43, 218, 83);
+}
+.nav{
+    width: 1280px;
+    height: 100px;
+    padding: 0px;
+    background-color: rgb(202, 27, 27);
+    text-align: center;
+    line-height: 100px;
+}
+.nav ul li{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+.nav ul li:hover{
+    background-color: #001D39;
+    color: #BDD839;
+}
+.nav ul li > ul{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 200px;
+    background-color: rgb(67, 121, 192);
+}
+.nav ul li:hover > ul{
+    display: block;
+}
+.nav ul li ul li{
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+.nav ul li ul li > ul{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 200px;
+    background-color: rgb(67, 121, 192);
+}
+.nav ul li ul li:hover > ul{
+    display: block;
+}
+.left{
+    width: 640px;
+    height: 640px;
+    float: left;
+    background-color: pink;
+}
+.right{
+    width: 640px;
+    height: 640px;
+    float: left;
+    background-color: yellow;
+}
+.footer{
+    width: 1280px;
+    height: 100px;
+    background-color: rgb(237, 153, 44);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    clear: both;}
+</style>
+</head>
+<body>
+<div class="container"></div>
+<div class="header">
+<h1> A.C. Patil College Of Engineering </h1></div>
+<div class="nav">
+    <ul>
+        <li>Home
+            <ul>
+                <li>Overview
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Facilities</li> 
+                        <li>Achievements</li>
+                    </ul>
+                </li>
+                <li>Events
+                    <ul>
+                        <li>Seminars</li>
+                        <li>Workshops</li> 
+                        <li>Conferences</li>
+                    </ul>
+                </li>
+                <li>News
+                    <ul>
+                        <li>Latest News</li>
+                        <li>Press Releases</li>
+                        <li>Notices</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>About
+            <ul>
+                <li>History
+                    <ul>
+                        <li>Founding</li>
+                        <li>Milestones</li> 
+                    </ul>
+                </li>
+                <li>Vision
+                    <ul>
+                        <li>Student Development</li>
+                        <li>Career Growth</li>
+
+                    </ul>
+                </li>
+                <li>Mission
+                    <ul>
+                        <li>Goals</li>
+                        <li>Objectives</li>
+                    </ul>
+                </li> 
+            </ul> 
+        </li>
+        <li>Contact
+            <ul>
+                <li>Address
+                    <ul>
+                        <li>Temporary Address</li>
+                        <li>Permanent Address</li>
+                    </ul>
+                </li>
+                <li>Phone
+                    <ul><li>Landline</li>
+                        <li>Mobile</li>
+                    </ul>
+                </li>
+                <li>Email
+                    <ul><li>Business Email</li>
+                        <li>Personal Email</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Department
+            <ul>
+                <li>Computer Science
+                    <ul><li>F.E.</li>
+                        <li>S.E.</li>
+                        <li>T.E.</li>
+                        <li>B.E.</li>
+                    </ul>
+                </li>
+                <li>Information Technology
+                    <ul><li>F.E.</li>
+                        <li>S.E.</li>
+                        <li>T.E.</li>
+                        <li>B.E.</li>
+                    </ul>
+                </li>
+                <li>Mechanical
+                    <ul><li>F.E.</li>
+                        <li>S.E.</li>
+                        <li>T.E.</li>
+                        <li>B.E.</li>
+                    </ul>
+                </li>
+                <li>Electrical
+                    <ul><li>F.E.</li>
+                        <li>S.E.</li>
+                        <li>T.E.</li>
+                        <li>B.E.</li>
+                    </ul>
+                </li>
+                <li>Civil
+                    <ul><li>F.E.</li>
+                        <li>S.E.</li>
+                        <li>T.E.</li>
+                        <li>B.E.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="left"></div>
+<div class="right"></div>
+<div class="footer"> <h3>© 2026 A.C. Patil College of Engineering</h3> </div>
+</body>
+</html>
